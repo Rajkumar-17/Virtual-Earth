@@ -51,7 +51,7 @@ export const Register = () => {
 
           setUser({username: "", email: "", phone: "", password: "",});
           toast.success("Registration Successful");
-          navigate("/");
+          navigate("/Login");
         } else {
           toast.error(res_data.extraDetails ? res_data.extraDetails : res_data.message);
         }
