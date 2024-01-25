@@ -19,7 +19,7 @@ export const Home = () => {
                 <a href="/contact">
                   <button className="btn">connect now</button>
                 </a>
-                <a href="/services">
+                <a href="/service">
                   <button className="btn secondary-btn">learn more</button>
                 </a>
               </div>
